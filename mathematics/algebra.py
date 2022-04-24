@@ -20,7 +20,7 @@ def add_matrices (a,b):
     for i in range(len(a)):
         for j in range(len(a[0])):
             result[i][j] = a[i][j] + b[i][j]
-        return result
+    return result
 
 
 def rown_kwadratowe (a,b,c):
@@ -48,7 +48,6 @@ def rown_kwadratowe (a,b,c):
 # X = [[1,2],[3,4]]
 # Y = [[6,7],[8,9]]
 # print(add_matrices(X,Y))
-#
-# print(rown_kwadratowe(1,4,2))
+# print(rown_kwadratowe(1,5,6))
 # print(rown_kwadratowe(1,4,4))
 # rown_kwadratowe(3,1,3)
