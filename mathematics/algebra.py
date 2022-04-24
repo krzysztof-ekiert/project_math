@@ -39,16 +39,16 @@ def rown_kwadratowe (a,b,c):
         results.append(x2)
         return results
 
-print (add(2,2))
-print (sub(5,3))
-print (mul(4,5))
-print (div(6,2))
-div(1,0)
-
-X = [[1,2],[3,4]]
-Y = [[6,7],[8,9]]
-print(add_matrices(X,Y))
-
-print(rown_kwadratowe(1,4,2))
-print(rown_kwadratowe(1,4,4))
-rown_kwadratowe(3,1,3)
+# print (add(2,2))
+# print (sub(5,3))
+# print (mul(4,5))
+# print (div(6,2))
+# div(1,0)
+#
+# X = [[1,2],[3,4]]
+# Y = [[6,7],[8,9]]
+# print(add_matrices(X,Y))
+#
+# print(rown_kwadratowe(1,4,2))
+# print(rown_kwadratowe(1,4,4))
+# rown_kwadratowe(3,1,3)
