@@ -6,7 +6,7 @@ class TestAlgebra(unittest.TestCase):
     def test_add1(self):
         assert algebra.add(2, 3) == 5
     def test_add2(self):
-        assert algebra.add(7, 8) == 15
+        assert algebra.add(7, 8, 2) == 17
     def test_add3(self):
         assert algebra.add(0.5, 3) == 3.5
     def test_sub1(self):
@@ -16,7 +16,7 @@ class TestAlgebra(unittest.TestCase):
     def test_sub3(self):
         assert algebra.sub(1, 4) == -3
     def test_mul1(self):
-        assert algebra.mul(4, 3) == 12
+        assert algebra.mul(4, 3, 2) == 24
     def test_mul2(self):
         assert algebra.mul(4, 0) == 0
     def test_mul3(self):

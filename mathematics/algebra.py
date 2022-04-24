@@ -1,13 +1,19 @@
 import math
 
-def add (a,b):
-    return a + b
+def add (*args):
+    result = 0
+    for x in args:
+        result += x
+    return result
 
 def sub (a,b):
     return a-b
 
-def mul (a,b):
-    return a*b
+def mul (*args):
+    result = 1
+    for x in args:
+        result *= x
+    return result
 
 def div (a,b):
     if b == 0:
