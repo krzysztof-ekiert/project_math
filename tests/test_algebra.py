@@ -24,7 +24,7 @@ class TestAlgebra(unittest.TestCase):
     def test_div1(self):
         self.assertEqual(algebra.div(4, 2), 2)
     def test_div2(self):
-        self.assertEqual(algebra.div(5, 2), 2.5)
+        self.assertEqual(algebra.div(5, 0), "Nie można dzielić przez zero")
     def test_div3(self):
         self.assertEqual(algebra.div(1.5, 3), 0.5)
     def test_mat1(self):
@@ -33,4 +33,6 @@ class TestAlgebra(unittest.TestCase):
         self.assertEqual(algebra.rown_kwadratowe(1,5,6), [-2,-3])
     def test_kwad2(self):
         self.assertEqual(algebra.rown_kwadratowe(1,4,4), [-2])
+    def test_kwad3(self):
+        self.assertEqual(algebra.rown_kwadratowe(1,1,4), "Brak pierwiastków")
 

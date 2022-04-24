@@ -11,7 +11,7 @@ def mul (a,b):
 
 def div (a,b):
     if b == 0:
-        print("Błąd dzielenia przez 0")
+        return "Nie można dzielić przez zero"
     else:
         return a/b
 
@@ -27,7 +27,7 @@ def rown_kwadratowe (a,b,c):
     delta = b*b - 4*a*c
     results = []
     if delta < 0:
-        print("Brak pierwiastków")
+        return "Brak pierwiastków"
     elif delta == 0:
         x = -b/a/2
         results.append(x)
